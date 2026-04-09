@@ -49,8 +49,14 @@ Our framework consists of four main components:
 ```bash
 ├── Configuration/
 │   └── model_configuration.json           # Model configuration
-├── Data_Pre-processing/
-│   └── data_preprocessing.py              # Data cleaning & preprocessing
+├── Baesian Model/
+│   └── enhanced_multiagent_bayesian_model.py
+├── data_Pre-processing/
+│   ├── IU_Xray_cxr_class.py
+│   └── mimic_cxr_class.py              
+├── Figures/
+├── Framework_Components/
+│   └── bayesian_components.py
 ├── Evaluation_Metrics/
 │   └── evaluation_metrics_calculator.py   # Custom evaluation metrics
 ├── Experiments/
