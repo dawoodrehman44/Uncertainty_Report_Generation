@@ -65,7 +65,7 @@ Our framework consists of four main components:
 │   └── Uncertainty_Analysis.py
 ├── Multi_Objective_loss/
 │   ├── multi_objective_loss_Calculation.py
-│   └── uncertainty_report_calibration_loss.py              # Variational linear layers
+│   └── uncertainty_report_calibration_loss.py             
 ├── reports_LLM_Components/
 │   ├── interactivediagnosticdialogue.py
 │   └── report_generation_components.py
@@ -77,7 +77,7 @@ Our framework consists of four main components:
 │   └── validate.py
 ├── Vocabulary/
 │   └── vocabulary.py
-├── main.py                                # Entry point for training/testing
+├── main.py                                
 ├── requirements.text                      # Environment dependencies
 └── README.md                              # Project documentation
 
