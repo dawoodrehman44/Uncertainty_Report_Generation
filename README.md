@@ -41,7 +41,7 @@ Our framework consists of four main components:
 2. **Disease Classification Agent**: Bayesian classifier with uncertainty quantification  
 3. **Consistency Validation Agent**: Cross-validation of predictions and uncertainties  
 4. **Adaptive Calibration Module**: Dynamic temperature and Platt scaling
-5. 
+5. **Transformer for Report Generation** : Using diagnostic prompt to integrate uncertainty estimates and generate uncertainty condition reports
 
 ---
 
