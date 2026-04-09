@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="Figures/Framework Architecture Plot - Phase 2.png" alt="Phase 2 Architecture Plot" width="1000"/>
+  <img src="Figures/Framework Architecture Plot - Phase_2.png" alt="Phase 2 Architecture Plot" width="1000"/>
 </p>
 ---
 
