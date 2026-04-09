@@ -3,10 +3,6 @@
 <p align="center">
   <img src="Figures/Framework Architecture Plot - Phase 1.png" alt="Phase 1 Architecture Plot" width="1000"/>
 </p>
-
-<p align="center">
-  <img src="Figures/Framework Architecture Plot - Phase_2.png" alt="Phase 2 Architecture Plot" width="1000"/>
-</p>
 ---
 
 ## 🎯 Highlights
