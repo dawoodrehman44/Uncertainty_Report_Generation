@@ -57,25 +57,26 @@ Our framework consists of four main components:
 ├── Figures/
 ├── Framework_Components/
 │   └── bayesian_components.py
-├── Evaluation_Metrics/
-│   └── evaluation_metrics_calculator.py   # Custom evaluation metrics
+├── Metrics_calculation/
+│   ├── advance_metrics_calculator.py
+│   └── report_metrics.py   # Custom evaluation metrics
 ├── Experiments/
 │   ├── Comparative_Case_Study_Analysis.py
 │   └── Uncertainty_Analysis.py
-├── Figures/
-│   └── Architecture_Plot.png
-├── Model/
-│   ├── model_integration.py
-│   ├── model_train.py
-│   ├── model_valid.py                     # Framework & uncertainty visualizations
-├── Model Components/
-│   ├── bayesian_encoder.py                # Hierarchical Bayesian encoder
-│   ├── calibration.py                     # Adaptive calibration
-│   ├── classification_network.py          # Disease classification agent
-│   ├── consistency_validation.py          # Consistency validation agent
-│   ├── enhanced_bayesian_framework.py     # Full model integration
-│   ├── multi_objective_loss.py            # Multi-objective loss
-│   └── variational_linear.py              # Variational linear layers
+├── Multi_Objective_loss/
+│   ├── multi_objective_loss_Calculation.py
+│   └── uncertainty_report_calibration_loss.py              # Variational linear layers
+├── reports_LLM_Components/
+│   ├── interactivediagnosticdialogue.py
+│   └── report_generation_components.py
+├── Training/
+│   └── Train.py
+├── Transformer/
+│   └── uncertainty_transformer.py
+├── Validation/
+│   └── validate.py
+├── Vocabulary/
+│   └── vocabulary.py
 ├── main.py                                # Entry point for training/testing
 ├── requirements.text                      # Environment dependencies
 └── README.md                              # Project documentation
@@ -88,14 +89,14 @@ Our framework consists of four main components:
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/dawoodrehman44/ICASSP-2026.git
-cd ICASSP-2026
+git clone https://github.com/dawoodrehman44/Uncertainty_Report_Generation.git
+cd Uncertainty_Report
 
 ```
 ### Create environment
 ```bash
-conda create -n bayesian_med python=3.8
-conda activate bayesian_med
+conda create -n uncertainty_report python=3.8
+conda activate uncertainty_report
 
 # Install dependencies
 pip install -r requirements.txt
