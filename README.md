@@ -111,7 +111,9 @@ python Experiments/uncertainty_Analysis.py \
 ```
 
 ## 🤝 Acknowledgments
-We thank the creators of CheXpert, MIMIC-CXR, and Chest Xray14 datasets and all the models used in this work, for making them publicly available to the community.
+- **Datasets**: CheXpert (Stanford), MIMIC-CXR (MIT), ChestX-ray14 (NIH), IU-Xray (Indiana University)
+- **Pre-trained Models**: CXR-CLIP, BioBart
+- **Frameworks**: PyTorch, Hugging Face Transformers
 
 ## Contact
 For questions or collaborations, please contact: 
