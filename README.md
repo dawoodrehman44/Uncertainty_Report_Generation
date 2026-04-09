@@ -35,7 +35,7 @@ Our approach addresses the critical need for **reliable uncertainty quantificati
 
 ## 🏗️ Architecture Overview
 
-Our framework consists of theseg components:
+Our framework consists of these components:
 
 1. **Hierarchical Bayesian Encoder**: Multi-scale feature extraction with variational layers  
 2. **Disease Classification Agent**: Bayesian classifier with uncertainty quantification  
